@@ -66,9 +66,13 @@ h1{
 .avatar-links{
     text-decoration: none;
     color: black;
-    font-size: 25px;
-    font-weight: bold;
+    /* font-size: 25px; */
+    /* font-weight: bold; */
     margin-left: 20px;
+}
+ul li{
+    list-style: none;
+    font-size: 1.5rem;
 }
 #avtar-nav{
     text-decoration: underline;
