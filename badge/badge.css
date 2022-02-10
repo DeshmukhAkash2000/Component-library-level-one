@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Sansita:ital@1&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.home-header{
+    display: flex;  
+    justify-content: space-between;
+    margin-top: -1rem;
+    background-color: rgb(215, 226, 235);
+    width: 100%;
+    position:sticky;
+    top: 0;
+    z-index: 1;    
+}
+h1{
+    font-size: 50px;
+}
+.left-header{
+    display: flex;    
+}
+
+#open-UI{
+    text-decoration: none;
+    color: black;
+}
+#home-text{
+    text-decoration: none;
+}
+#header-image{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    line-height: 5rem;
+    width: 20%;
+    border-right: solid black 5px;
+    position: sticky;
+    top:0;
+    height: 100vh;
+    /* padding-top: 4rem; */
+}
+#linkdin-logo{
+    height: 55px;
+    width: 55px;
+    border-radius: 1rem;
+}
+#github-logo{
+    height: 50px;
+    border-radius: 1rem;
+    margin-left: 10px;
+}
+#twiter-logo{
+    height: 50px;
+    width: 45px;
+    border-radius: 2rem;
+    margin-left:10px ;
+}
+.contact-logo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.avatar-links{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+ul li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+.main{
+    display: flex;
+}
+#badge-nav{
+    text-decoration: underline;
+    color: red;
+    font-style: italic;
+    font-size: 30px;
+}
+#textbadge-1{
+    display: flex;   
+}
+.about-badge{
+    margin-left: 20px;
+    width: 80%;
+}
+#textbadge1-number{
+    position: relative;
+    top: -1.3rem;
+    right: .3rem;
+    background-color: blue;
+    padding: 2px 6px;
+
+    border-radius: 50%;
+}
+#textbadge-2{
+    display: flex;   
+}
+#textbadge2-number{
+    position: relative;
+    top: -1.1rem;
+    right: .3rem;
+    background-color: blue;
+    padding: 4px 10px;
+
+    border-radius: 50%;
+}
+.btn-rightbadge{
+    display: flex;
+}
+#btn-rightbadge-number{
+    position: relative;
+    top: -1rem;
+    right: .3rem;
+    background-color: aqua;
+    padding: 4px 10px;
+    border-radius: 50%;
+}
+#badge-btn-1{
+    margin-left: 05px;
+}
+.btn-rightbadge{
+    display: flex;
+}
+#btn-leftbadge-number{
+    position: relative;
+    top: -1rem;
+    left: .5rem;
+    background-color: aqua;
+    padding: 4px 10px;
+    border-radius: 50%;
+}
+.allavtarbadge{
+    display: flex;
+}
+#badge-avtar1{
+    width: 100px;
+    height: 100px;
+    border: rgb(37, 233, 103) 4px solid;
+    border-radius: 50%;
+}
+#badge-avtar2{
+    width: 100px;
+    height: 100px;
+    border: rgb(37, 233, 103) 4px solid;
+    border-radius: 50%;
+}
+#colordiv{
+    background-color: green;
+    height: 20px;
+    width: 10px;
+    padding: 0px 5px;
+    border-radius: 50%;
+    border: white 2px solid;
+    position: relative;
+    top: 85px;
+    right: 25px;
+}
+.avtar-secondbadge{
+    display: flex;;
+    margin-left: 20px;
+}
+.avtar-thirdbadge{
+    display: flex;
+}
+#thirdavtarbadge-number{
+    position: relative;
+    background-color: green;
+    color: white;
+    padding: 4px 6px 4px 6px;
+    border-radius: 50%;
+    top: 60px;
+    right: 30px;
+    border: white 2px solid;
+
+}
+#badge-avtar3{
+    width: 100px;
+    height: 100px;
+    border: red 4px solid;
+    border-radius: 50%;
+}
+.all-icon-badge{
+    display: flex;
+}
+.icon1-badge{
+    display: flex;
+}
+#iconbadge1-number{
+    position: relative;
+    bottom: 15px;
+    right: 10px;
+    background-color: green;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+}
+.bottom-nav{
+    display: flex;
+    justify-content: space-between;
+}
+#bottom-nav1{
+    background-color: aqua;
+    color: black;
+    padding: 9px;
+    border-radius: 1rem;
+}
+
+#bottom-nav2{
+    background-color: aqua;
+    color: black;
+    padding: 9px;
+    border-radius: 1rem;
+}
