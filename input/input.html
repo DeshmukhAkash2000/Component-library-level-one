@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image" href="/home images/logo.png">
+    <title>Input|Component_Library</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="input.css">
+</head>
+
+<body>
+    <header class="home-header">
+        <div class="left-header">
+            <img id="header-image" src="/home images/logo.png" height="50px" alt="">
+            <a id="home-text" href="index.html">
+                <h2 id="Open-UI">Home</h2>
+            </a>
+        </div>
+        <div class="contact-logo">
+            <a href=""><img id="linkdin-logo" src="/home images/linkdin-logo.jpg" alt=""></a>
+            <a href=""><img id="github-logo" src="/home images/GitHub-logo.png" alt=""></a>
+            <a href=""><img id="twiter-logo" src="/home images/twitter-logo.jpeg" alt=""></a>
+        </div>
+    </header>
+    <div class="main">
+        <ul class="sidebar">
+            <h3 class="avatar-links" href="">Components</h3>
+            <hr>
+            <li><a class="avatar-links" href="/avtar/avtar.html">Avtar</a></li>
+            <li><a class="avatar-links" href="/avtar/avtar.html">Alert</a></li>
+            <li><a class="avatar-links" href="/badge/badge.html">Badge</a></li>
+            <li><a class="avatar-links" href="/btn/btn.html">Button</a></li>
+            <li><a class="avatar-links" href="/card/card.html">Card</a></li>
+            <li><a class="avatar-links" id="input-nav" href="/input/input.html">Input</a></li>
+            <li><a class="avatar-links" href="nav.html">Navigation</a></li>
+            <li><a class="avatar-links" href="">Rating</a></li>
+            <li><a class="avatar-links" href="">Slider</a></li>
+            <li><a class="avatar-links" href="">TextUtilities</a></li>
+            <li>
+        </ul>
+        <div class="all-input">
+            <h1>Inputs</h1>
+            <p>The input tag specifies an input field where the user can enter data.
+
+                The input element is the most important form element.
+                
+                The input element can be displayed in several ways, depending on the type attribute.</p>
+            <div class="text-input">
+                <h3>Text-type Input</h3>
+                <input type="text" placeholder="type here something...">
+                <label for="fname">Type here</label>
+            </div>
+            <hr>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522text-input%2522%253E%250A%2520%2520%2520%2520%253Ch3%253EText-type%2520Input%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520placeholder%253D%2522type%2520here%2520something...%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522fname%2522%253EType%2520here%253C%252Flabel%253E%250A%253C%252Fdiv%253E"
+                style="width: 656px; height: 279px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <hr>
+            <div class="checkbox-input">
+                <h3>Checkbox-Type Input</h3>
+                <div>
+                    <input type="checkbox" placeholder="type here something...">
+                    <label for="fname"> - Checkbox1</label>
+                </div>
+                <div>
+                    <input type="checkbox" placeholder="type here something...">
+                    <label for="fname"> - Checkbox2</label>
+                </div>
+                <div>
+                    <input type="checkbox" placeholder="type here something...">
+                    <label for="fname"> - Checkbox3</label>
+                </div>
+            </div>
+            <hr>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522checkbox-input%2522%253E%250A%253Ch3%253ECheckbox-Type%2520Input%253C%252Fh3%253E%250A%253Cdiv%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520placeholder%253D%2522type%2520here%2520something...%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522fname%2522%253E%2520-%2520Checkbox1%253C%252Flabel%253E%250A%253C%252Fdiv%253E"
+                style="width: 690px; height: 298px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <hr>
+            <div class="radio-input">
+                <h3>Radio-Input Input</h3>
+                <div>
+                    <input type="radio" id="one" name="option" value="one">
+                    <label for="fname">Option 1</label> 
+                </div>
+                <div>
+                    <input type="radio" id="two" name="option" value="two">
+                    <label for="fname">Option 2</label> 
+                </div>
+                <div>
+                    <input type="radio" id="three" name="option" value="three">
+                    <label for="fname">Option 3</label> 
+                </div>
+                <div>
+                    <input type="radio" id="four" name="option" value="four">
+                    <label for="fname">Option 4</label> 
+                </div>
+            </div>
+            <hr>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522radio-input%2522%253E%250A%253Ch3%253ERadio-Input%2520Input%253C%252Fh3%253E%250A%253Cdiv%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522one%2522%2520name%253D%2522option%2522%2520value%253D%2522one%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522fname%2522%253EOption%25201%253C%252Flabel%253E%2520%250A%253C%252Fdiv%253E"
+                style="width: 648px; height: 298px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <div class="text-input">
+                <h3>Text-area Input</h3>
+                <input class="input" type="text" placeholder="type here something...">
+            </div>
+            <hr>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522text-input%2522%253E%250A%2520%2520%2520%2520%253Ch3%253EText-area%2520Input%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522type%2520here%2520something...%2522%253E%250A%253C%252Fdiv%253E"
+                style="width: 774px; height: 260px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <div class="bottom-nav">
+                <a href="input.html"><h3 id="bottom-nav1"> < button </h3> </a> 
+                <a href="list.html"><h3 id="bottom-nav2"> > List </h3></a>
+            </div>
+        </div>
+    </div>
