@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Sansita:ital@1&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* *{
+    box-sizing: border-box;
+} */
+.home-header{
+    display: flex;  
+    justify-content: space-between;
+    margin-top: -1rem;
+    background-color: rgb(215, 226, 235);
+    width: 100%;
+    position:sticky;
+    top: 0;
+    z-index: 1;    
+}
+h1{
+    font-size: 50px;
+}
+.left-header{
+    display: flex;    
+}
+
+#open-UI{
+    text-decoration: none;
+    color: black;
+}
+#home-text{
+    text-decoration: none;
+}
+#header-image{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#linkdin-logo{
+    height: 55px;
+    width: 55px;
+    border-radius: 1rem;
+}
+#github-logo{
+    height: 50px;
+    border-radius: 1rem;
+    margin-left: 10px;
+}
+#twiter-logo{
+    height: 50px;
+    width: 45px;
+    border-radius: 2rem;
+    margin-left:10px ;
+}
+.contact-logo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    line-height: 3rem;
+    width: 20%;
+    border-right: solid black 5px;
+    position: sticky;
+    top:0;
+    height: 100vh;
+}
+ul li{
+    list-style: none;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+    line-height: 4rem;
+}
+.avatar-links{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+#rating-nav{
+    text-decoration: underline;
+    color: red;
+    font-style: italic;
+    font-size: 30px;
+}
+.main{
+    display: flex;
+    /* flex-direction: row; */
+}
+.all-ratings{
+    cursor: pointer;
+    font-size: 2rem;
+    width: 100%;
+}
+.checked{
+    color: red;
+}
+.checked1:hover{
+    color: red;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 1rem;
+}
+.number-stars{
+    display: flex;
+    background-color: aqua;
+    width: 5rem;
+    height: 2rem;
+    border: 2px solid red;
+}
+.number-for-stars{
+    position: relative;
+    bottom: 2.3rem;
+    margin-right: .5rem;
+}
+.bottom-nav{
+    display: flex;
+    justify-content: space-between;
+}
+#bottom-nav1{
+    background-color: aqua;
+    color: black;
+    padding: 9px;
+    border-radius: 1rem;
+}
+.simple-stars{
+    color: aqua;
+}
+
+#bottom-nav2{
+    background-color: aqua;
+    color: black;
+    padding: 9px;
+    border-radius: 1rem;
+}
