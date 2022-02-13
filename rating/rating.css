@@ -2,9 +2,6 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
-/* *{
-    box-sizing: border-box;
-} */
 .home-header{
     display: flex;  
     justify-content: space-between;
@@ -72,6 +69,11 @@ ul li{
     margin-right: 2rem;
     line-height: 4rem;
 }
+.title{
+    font-size: 2rem;
+    font-weight: bold;
+    color: brown;
+}
 .avatar-links{
     text-decoration: none;
     color: black;
@@ -126,13 +128,32 @@ ul li{
     padding: 9px;
     border-radius: 1rem;
 }
-.simple-stars{
-    color: aqua;
+#bottom-nav1:hover{
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
 }
-
+#bottom-nav2:hover{
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+}
 #bottom-nav2{
     background-color: aqua;
     color: black;
     padding: 9px;
     border-radius: 1rem;
+}
+.simple-stars{
+    color: aqua;
+}
+#bottom-nav1:hover{
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+}
+#bottom-nav2:hover{
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
 }
