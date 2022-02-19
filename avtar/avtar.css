@@ -74,6 +74,11 @@ ul li{
     list-style: none;
     font-size: 1.5rem;
 }
+.title{
+    font-size: 2rem;
+    font-weight: bold;
+    color: brown;
+}
 #avtar-nav{
     text-decoration: underline;
     color: red;
@@ -201,4 +206,14 @@ ul li{
     color: black;
     padding: 9px;
     border-radius: 1rem;
+}
+#bottom-nav1:hover{
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+}
+#bottom-nav2:hover{
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
 }
