@@ -76,6 +76,13 @@ ul li {
 }
 ul li {
     font-size: 1.5rem;
+    line-height: 4rem;
+}
+.title{
+    font-size: 2rem;
+    font-weight: bold;
+    color: brown;
+    border-bottom:2px solid ;
 }
 #card-nav{
     text-decoration: underline;
@@ -206,5 +213,15 @@ ul li {
     color: black;
     padding: 9px;
     border-radius: 1rem;
+}
+#bottom-nav1:hover{
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+}
+#bottom-nav2:hover{
+    background-color: purple;
+    color: white;
+    font-weight: bold;
 }
 

@@ -2,7 +2,9 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
-
+/* *{
+    box-sizing: border-box;
+} */
 .home-header{
     display: flex;  
     justify-content: space-between;
@@ -64,22 +66,12 @@ h1{
     top:0;
     height: 100vh;
 }
+
 ul li{
     list-style: none;
     font-size: 1.5rem;
     margin-right: 2rem;
     line-height: 4rem;
-}
-.avatar-links{
-    text-decoration: none;
-    color: black;
-    margin-left: 20px;
-}
-#nav-nav{
-    text-decoration: underline;
-    color: red;
-    font-style: italic;
-    font-size: 30px;
 }
 .title{
     font-size: 2rem;
@@ -87,45 +79,49 @@ ul li{
     color: brown;
     border-bottom:2px solid ;
 }
-.navbar{
-    display: flex;
-    /* height: 10vh; */
-    margin-left: 2rem;
-    margin-top: 3rem;
-    width: 100%;
-    align-items: center;
-    background-color: aqua;
-    justify-content: space-between;
-    border: 2px black solid;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+.avatar-links{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
 }
-.right-content{
-    margin-left: 1rem;
-    margin-bottom: .5rem;
-}
-.left-content{
-    width: 20rem;
-    display: flex;
-    justify-content: space-between;
-    margin-right: 1rem;
+#tu-nav{
+    text-decoration: underline;
+    color: red;
+    font-style: italic;
+    font-size: 30px;
 }
 .main{
     display: flex;
+    flex-direction: row;
 }
-.body-containt{
+.title{
+    font-size: 2rem;
+    font-weight: bold;
+    color: brown;
+    border-bottom:2px solid ;
+}
+.large-text{
+    font-size: 2rem;
+}
+.medium-text{
+    font-size: 1.5rem;
+}
+.small-text{
+    font-size: 1rem;
+}
+.grey-text{
+    color: grey;
+}
+.text-center{
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto ;
+}
+.text-utilities{
+    margin-left: 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    width: 72%;
-}
-h3{
-    text-decoration: none;
-    color: black;
-}
-p{
-    margin-left: 1.5rem;
-    font-weight: bold;
+    width: 100%;
 }
 .bottom-nav{
     display: flex;
@@ -137,6 +133,7 @@ p{
     padding: 9px;
     border-radius: 1rem;
 }
+
 #bottom-nav2{
     background-color: aqua;
     color: black;
