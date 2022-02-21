@@ -2,6 +2,16 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+:root{
+    --black:rgb(0, 0, 0);
+    --aqua-color:rgb(0, 255, 255);
+    --red:red;
+    --blue:blue;
+    --light-green:rgb(37, 233, 103);
+    --green:green;
+}
+
 .home-header{
     display: flex;  
     justify-content: space-between;
@@ -12,51 +22,59 @@ body{
     top: 0;
     z-index: 1;    
 }
+
 h1{
     font-size: 50px;
 }
+
 .left-header{
     display: flex;    
 }
 
 #open-UI{
     text-decoration: none;
-    color: black;
+    color: var(--black);
 }
+
 #home-text{
     text-decoration: none;
 }
+
 #header-image{
     margin-top: 10px;
     margin-right: 10px;
 }
+
 .sidebar{
     display: flex;
     flex-direction: column;
     line-height: 5rem;
     width: 20%;
-    border-right: solid black 5px;
+    border-right: solid var(--black) 5px;
     position: sticky;
     top:0;
     height: 100vh;
-    /* padding-top: 4rem; */
 }
+
 #linkdin-logo{
     height: 55px;
     width: 55px;
     border-radius: 1rem;
 }
+
 #github-logo{
     height: 50px;
     border-radius: 1rem;
     margin-left: 10px;
 }
+
 #twiter-logo{
     height: 50px;
     width: 45px;
     border-radius: 2rem;
     margin-left:10px ;
 }
+
 .contact-logo{
     display: flex;
     justify-content: space-around;
@@ -66,76 +84,89 @@ h1{
 
 .avatar-links{
     text-decoration: none;
-    color: black;
+    color: var(--black);
     margin-left: 20px;
 }
+
 #btn-nav{
     text-decoration: underline;
-    color: red;
+    color: var(--red);
     font-style: italic;
     font-size: 30px;
 }
+
 ul li{
     list-style: none;
     font-size: 1.5rem;
+    line-height: 4rem;
 }
+
 .title{
     font-size: 2rem;
     font-weight: bold;
     color: brown;
 }
+
 .main{
     display: flex;
 }
+
 .buttons{
     margin-left: 20px;
     width: 80%;
 }
+
 #primary-btn{
     padding: 1rem;
-    background-color: green;
+    background-color: var(--green);
     color: white;
     font-weight: bold;
-    border: black 2px solid;
+    border: var(--black) 2px solid;
     cursor: pointer;
     border-radius: 10px;
 }
+
 #primary-btn:hover{
     background-color: white;
-    color: black;
+    color: var(--black);
     font-weight: bold;
-    border: 2px solid green;
+    border: 2px solid var(--green);
 }
+
 #link-btn{
     padding: 1rem;
     color: white;
     font-weight: bold;
-    border: black 2px solid;
+    border: var(--black) 2px solid;
     cursor: pointer;
     width: 130px;
     border-radius: 10px;
 }
+
 #link-btn:hover{
-    background-color: aqua;
+    background-color: var(--aqua-color);
     color: white;
     font-weight: bold;
-    border: 2px solid red;
+    border: 2px solid var(--red);
 }
+
 #icon-btn{
     padding: 1rem;
     background-color: grey;
     color: white;
     font-weight: bold;
-    border: green 2px solid;
+    border: var(--green) 2px solid;
     cursor: pointer;
     border-radius: 10px;
 }
+
 #icon-btn:hover{
-    background-color: black;
+    background-color: var(--black);
     color: white;
     font-weight: bold;
     border: 4px solid white;
 }
+
 #floating-btn{
     padding: 2rem;
     background-color: rgb(192, 12, 12);
@@ -145,52 +176,61 @@ ul li{
     cursor: pointer;
     border-radius: 50%;
 }
+
 #floating-btn:hover{
-    background-color: black;
+    background-color: var(--black);
 }
+
 #solid-btn{
     padding: 1rem;
-    background-color: blue;
+    background-color: var(--blue);
     color: white;
     font-weight: bold;
-    border: green 2px solid;
+    border: var(--green) 2px solid;
     cursor: pointer;
     border-radius: 10px;
 }
+
 #solid-btn:hover{
-    background-color: green;
-    color: black;
+    background-color: var(--green);
+    color: var(--black);
     font-weight: bold;
     border: 2px solid white; 
 }
+
 .bottom-nav{
     display: flex;
     justify-content: space-between;
 }
+
 .bottom-nav{
     display: flex;
     justify-content: space-between;
 }
+
 #bottom-nav1{
-    background-color: aqua;
-    color: black;
+    background-color: var(--aqua-color);
+    color: var(--black);
     padding: 9px;
     border-radius: 1rem;
 }
 
 #bottom-nav2{
-    background-color: aqua;
-    color: black;
+    background-color: var(--aqua-color);
+    color: var(--black);
     padding: 9px;
     border-radius: 1rem;
 }
+
 #bottom-nav1:hover{
     background-color: blueviolet;
     color: white;
     font-weight: bold;
 }
+
 #bottom-nav2:hover{
     background-color: blueviolet;
     color: white;
     font-weight: bold;
 }
+

@@ -2,9 +2,12 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
-/* *{
-    box-sizing: border-box;
-} */
+:root{
+    --black:rgb(0, 0, 0);
+    --aqua-color:rgb(0, 255, 255);
+    --red:red;
+}
+
 .home-header{
     display: flex;  
     justify-content: space-between;
@@ -15,40 +18,48 @@ body{
     top: 0;
     z-index: 1;    
 }
+
 h1{
     font-size: 50px;
 }
+
 .left-header{
     display: flex;    
 }
 
 #open-UI{
     text-decoration: none;
-    color: black;
+    color: var(--black);
 }
+
 #home-text{
     text-decoration: none;
 }
+
 #header-image{
     margin-top: 10px;
     margin-right: 10px;
 }
+
 #linkdin-logo{
     height: 55px;
     width: 55px;
     border-radius: 1rem;
 }
+
 #github-logo{
     height: 50px;
     border-radius: 1rem;
     margin-left: 10px;
 }
+
 #twiter-logo{
     height: 50px;
     width: 45px;
     border-radius: 2rem;
     margin-left:10px ;
 }
+
 .contact-logo{
     display: flex;
     justify-content: space-around;
@@ -61,69 +72,78 @@ h1{
     flex-direction: column;
     line-height: 3rem;
     width: 20%;
-    border-right: solid black 5px;
+    border-right: solid var(--black) 5px;
     position: sticky;
     top:0;
     height: 100vh;
 }
+
 ul li{
     list-style: none;
     font-size: 1.5rem;
     margin-right: 2rem;
     line-height: 4rem;
 }
+
 .title{
     font-size: 2rem;
     font-weight: bold;
     color: brown;
 }
+
 .avatar-links{
     text-decoration: none;
-    color: black;
+    color: var(--black);
     margin-left: 20px;
 }
+
 #input-nav{
     text-decoration: underline;
-    color: red;
+    color: var(--red);
     font-style: italic;
     font-size: 30px;
 }
+
 .main{
     display: flex;
 }
+
 .all-input{
     margin-left: 1.2rem;
 }
 .text-input{
     padding: 3rem;
 }
+
 .checkbox-input{
     padding: 3rem;
     display: flex;
     flex-direction: column;
 }
+
 .radio-input{
     padding: 3rem;
 }
-
 
 .bottom-nav{
     display: flex;
     justify-content: space-between;
 }
+
 #bottom-nav1{
-    background-color: aqua;
-    color: black;
+    background-color: var(--aqua-color);
+    color: var(--black);
     padding: 9px;
     border-radius: 1rem;
 }
 
 #bottom-nav2{
-    background-color: aqua;
-    color: black;
+    background-color: var(--aqua-color);
+    color: var(--black);
     padding: 9px;
     border-radius: 1rem;
 }
+
 .input{
     padding: 5rem;
 }
@@ -132,15 +152,15 @@ ul li{
     justify-content: space-between;
 }
 #bottom-nav1{
-    background-color: aqua;
-    color: black;
+    background-color: var(--aqua-color);
+    color: var(--black);
     padding: 9px;
     border-radius: 1rem;
 }
 
 #bottom-nav2{
-    background-color: aqua;
-    color: black;
+    background-color: var(--aqua-color);
+    color: var(--black);
     padding: 9px;
     border-radius: 1rem;
 }
@@ -149,6 +169,7 @@ ul li{
     color: white;
     font-weight: bold;
 }
+
 #bottom-nav2:hover{
     background-color: blueviolet;
     color: white;

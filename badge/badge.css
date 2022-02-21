@@ -2,6 +2,16 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+:root{
+    --black:rgb(0, 0, 0);
+    --aqua-color:rgb(0, 255, 255);
+    --red:red;
+    --blue:blue;
+    --light-green:rgb(37, 233, 103);
+    --green:green;
+}
+
 .home-header{
     display: flex;  
     justify-content: space-between;
@@ -12,51 +22,59 @@ body{
     top: 0;
     z-index: 1;    
 }
+
 h1{
     font-size: 50px;
 }
+
 .left-header{
     display: flex;    
 }
 
 #open-UI{
     text-decoration: none;
-    color: black;
+    color: var(--black);
 }
+
 #home-text{
     text-decoration: none;
 }
+
 #header-image{
     margin-top: 10px;
     margin-right: 10px;
 }
+
 .sidebar{
     display: flex;
     flex-direction: column;
     line-height: 5rem;
     width: 20%;
-    border-right: solid black 5px;
+    border-right: solid var(--black) 5px;
     position: sticky;
     top:0;
     height: 100vh;
-    /* padding-top: 4rem; */
 }
+
 #linkdin-logo{
     height: 55px;
     width: 55px;
     border-radius: 1rem;
 }
+
 #github-logo{
     height: 50px;
     border-radius: 1rem;
     margin-left: 10px;
 }
+
 #twiter-logo{
     height: 50px;
     width: 45px;
     border-radius: 2rem;
     margin-left:10px ;
 }
+
 .contact-logo{
     display: flex;
     justify-content: space-around;
@@ -66,97 +84,116 @@ h1{
 
 .avatar-links{
     text-decoration: none;
-    color: black;
+    color: var(--black);
     margin-left: 20px;
 }
+
 ul li{
     list-style: none;
     font-size: 1.5rem;
+    line-height: 4rem;
 }
+
 .title{
     font-size: 2rem;
     font-weight: bold;
     color: brown;
 }
+
 .main{
     display: flex;
 }
+
 #badge-nav{
     text-decoration: underline;
-    color: red;
+    color: var(--red);
     font-style: italic;
     font-size: 30px;
 }
+
 #textbadge-1{
     display: flex;   
 }
+
 .about-badge{
     margin-left: 20px;
     width: 80%;
 }
+
 #textbadge1-number{
     position: relative;
     top: -1.3rem;
     right: .3rem;
-    background-color: blue;
+    background-color: var(--blue);
     padding: 2px 6px;
 
     border-radius: 50%;
 }
+
 #textbadge-2{
     display: flex;   
 }
+
 #textbadge2-number{
     position: relative;
     top: -1.1rem;
     right: .3rem;
-    background-color: blue;
+    background-color: var(--blue);
     padding: 4px 10px;
 
     border-radius: 50%;
 }
+
 .btn-rightbadge{
     display: flex;
 }
+
 #btn-rightbadge-number{
     position: relative;
     top: -1rem;
     right: .3rem;
-    background-color: aqua;
+    background-color: var(--aqua-color);
     padding: 4px 10px;
     border-radius: 50%;
 }
+
 #badge-btn-1{
     margin-left: 05px;
 }
+
 .btn-rightbadge{
     display: flex;
 }
+
 #btn-leftbadge-number{
     position: relative;
     top: -1rem;
     left: .5rem;
-    background-color: aqua;
+    background-color: var(--aqua-color);
     padding: 4px 10px;
     border-radius: 50%;
 }
+
 .allavtarbadge{
     display: flex;
 }
+
 #badge-avtar1{
     width: 100px;
     height: 100px;
-    border: rgb(37, 233, 103) 4px solid;
+    border: var(--light-green) 4px solid;
     border-radius: 50%;
 }
+
 #badge-avtar2{
     width: 100px;
     height: 100px;
-    border: rgb(37, 233, 103) 4px solid;
+    border: var(--light-green) 4px solid;
     border-radius: 50%;
 }
+
 #colordiv{
-    background-color: green;
+    background-color: var(--green);
     height: 20px;
     width: 10px;
     padding: 0px 5px;
@@ -166,69 +203,79 @@ ul li{
     top: 85px;
     right: 25px;
 }
+
 .avtar-secondbadge{
     display: flex;;
     margin-left: 20px;
 }
+
 .avtar-thirdbadge{
     display: flex;
 }
+
 #thirdavtarbadge-number{
     position: relative;
-    background-color: green;
+    background-color: var(--green);
     color: white;
     padding: 4px 6px 4px 6px;
     border-radius: 50%;
     top: 60px;
     right: 30px;
     border: white 2px solid;
-
 }
+
 #badge-avtar3{
     width: 100px;
     height: 100px;
-    border: red 4px solid;
+    border: var(--red) 4px solid;
     border-radius: 50%;
 }
+
 .all-icon-badge{
     display: flex;
 }
+
 .icon1-badge{
     display: flex;
 }
+
 #iconbadge1-number{
     position: relative;
     bottom: 15px;
     right: 10px;
-    background-color: green;
+    background-color: var(--green);
     height: 30px;
     width: 30px;
     text-align: center;
     color: white;
     border-radius: 50%;
 }
+
 .bottom-nav{
     display: flex;
     justify-content: space-between;
 }
+
 #bottom-nav1{
-    background-color: aqua;
-    color: black;
+    background-color: var(--aqua-color);
+    color: var(--black);
     padding: 9px;
     border-radius: 1rem;
 }
 
 #bottom-nav2{
-    background-color: aqua;
-    color: black;
+    background-color: var(--aqua-color);
+    color: var(--black);
     padding: 9px;
     border-radius: 1rem;
 }
+
 #bottom-nav1:hover{
     background-color: blueviolet;
     color: white;
     font-weight: bold;
 }
+
 #bottom-nav2:hover{
     background-color: blueviolet;
     color: white;
