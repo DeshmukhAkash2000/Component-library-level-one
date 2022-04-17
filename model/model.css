@@ -233,3 +233,22 @@ ul li{
     color:var(--white-color);
     font-weight: bold;
 }
+
+.bottom-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+#bottom-nav1{
+    background-color: var(--aqua-color);
+    color: var(--black);
+    padding: 9px;
+    border-radius: 1rem;
+}
+
+#bottom-nav2{
+    background-color: var(--aqua-color);
+    color: var(--black);
+    padding: 9px;
+    border-radius: 1rem;
+}
