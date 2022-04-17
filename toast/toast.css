@@ -7,6 +7,9 @@ body{
     --black:rgb(0, 0, 0);
     --aqua-color:rgb(0, 255, 255);
     --red:red;
+    --blue:blue;
+    --light-green:rgb(37, 233, 103);
+    --green:green;
 }
 
 .home-header{
@@ -30,7 +33,7 @@ h1{
 
 #open-UI{
     text-decoration: none;
-    color: var(--black);
+    color: black;
 }
 
 #home-text{
@@ -79,24 +82,11 @@ h1{
     height: 120vh;
 }
 
-#nav-nav{
-    text-decoration: underline;
-    color: var(--red);
-    font-style: italic;
-    font-size: 30px;
-}
-
 ul li{
     list-style: none;
     font-size: 1.5rem;
     margin-right: 2rem;
     line-height: 4rem;
-}
-
-.title{
-    font-size: 2rem;
-    font-weight: bold;
-    color: brown;
 }
 
 .avatar-links{
@@ -105,8 +95,23 @@ ul li{
     margin-left: 20px;
 }
 
+#tu-nav{
+    text-decoration: underline;
+    color: var(--red);
+    font-style: italic;
+    font-size: 30px;
+}
+
 .main{
     display: flex;
+    flex-direction: row;
+}
+
+.title{
+    font-size: 2rem;
+    font-weight: bold;
+    color: brown;
+    border-bottom:2px solid ;
 }
 
 :root{
@@ -117,11 +122,14 @@ ul li{
     --special-margin:0.5rem;
     --special-margin-top:1rem;
     --font-size:1.5rem;
-    --cancle-color:rgb(201, 194, 194);
+    --sucess-color: rgb(19, 129, 19);
+    --sucess-bgColor:rgb(162, 226, 162);
+    --error-color:rgb(173, 12, 12);
+    --error-bgColor:rgb(219, 157, 157);
+    --deny-color:grey;
     --white-color:white;
     --head-color:rgb(139, 185, 179);
     --sidebar-color:rgb(236, 189, 189);
-    --model-color: ghostwhite;
 }
 
 .code{
@@ -184,54 +192,36 @@ ul li{
     text-decoration: underline;
     color:var(--special-color);
 }
-.model-component{
-    width:25rem;
-    height:11rem;
+.toast-component{
+    width:17rem;
+    height:4.5rem;
     display: flex;
     flex-direction: column;
     position: relative;
     border:2px solid #cec9c9;
     padding-left: 1rem;
-    background-color:var(--model-color);
 }
-.dialog{
-    justify-content:flex-end;
+.success{
+    background-color:var(--sucess-bgColor);
+    color:var(--sucess-color);
 }
-.btn{
-    position: absolute;
-    bottom: 1rem;
-    left: 11rem;
+.error{
+    background:var(--error-bgColor);
+    color:var(--error-color);
 }
 .deny{
-    background-color:var(--white-color);
     border:0px;
-    color:grey;
+    color:var(--deny-color);
     font-weight:bold;
     position: absolute;
-     left:24rem; 
-    bottom:9rem;
+     left: 16.9rem; 
+    bottom:3rem;
     cursor:pointer;
     border-radius: 50%;
-    font-size:var(--font-size);
+    font-size:1.3rem;
 }
 .deny:hover{
     color:var(--special-color);
-}
-.active-btn{
-    border:var(--border);
-    font-size: 1rem;
-    padding:0.5rem 0.8rem 0.5rem 0.8rem;
-    border-radius:0.3rem;
-    margin:0.2rem;
-    cursor: pointer;
-}
-.cancle:hover{
-    background-color:var(--cancle-color);
-}
-.delete:hover{
-    background-color:var(--special-color);
-    color:var(--white-color);
-    font-weight: bold;
 }
 
 .bottom-nav{
@@ -241,14 +231,26 @@ ul li{
 
 #bottom-nav1{
     background-color: var(--aqua-color);
-    color: var(--black);
+    color: black;
     padding: 9px;
     border-radius: 1rem;
 }
 
 #bottom-nav2{
     background-color: var(--aqua-color);
-    color: var(--black);
+    color: black;
     padding: 9px;
     border-radius: 1rem;
+}
+
+#bottom-nav1:hover{
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+}
+
+#bottom-nav2:hover{
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
 }
